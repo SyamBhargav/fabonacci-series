@@ -1,0 +1,9 @@
+n1=int(input("enter 1st no :"))
+n2=int(input("enter 2nd no :"))
+n3=0
+n=int(input("enter range :"))
+for i in range(0,n):
+    n3=n1+n2
+    n1=n2
+    n2=n3
+    print(n3,end=" ")
